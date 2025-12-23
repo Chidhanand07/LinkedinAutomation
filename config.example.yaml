@@ -1,0 +1,40 @@
+# Quick Start Configuration Example
+# Copy this to config.yaml and customize
+
+credentials:
+  email: ""  # Will use LINKEDIN_EMAIL env var
+  password: ""  # Will use LINKEDIN_PASSWORD env var
+
+search:
+  keywords: ["software engineer", "developer"]
+  max_profiles: 30
+  max_pages: 3
+  skip_duplicates: true
+
+connection:
+  max_requests_per_day: 25
+  send_note: true
+  note_templates:
+    - "Hi {{FirstName}}, impressed by your work! Let's connect."
+    - "Hello {{FirstName}}, I'd love to connect and exchange ideas!"
+  delay_between_requests_min: 25
+  delay_between_requests_max: 45
+
+messaging:
+  enabled: true
+  max_messages_per_day: 15
+  followup_templates:
+    - "Thanks for connecting, {{FirstName}}!"
+  wait_hours_after_acceptance: 24
+
+rate_limiting:
+  min_interval_between_runs_minutes: 30
+  operate_business_hours_only: false
+
+browser:
+  headless: false
+  user_data_dir: "./chrome-profile"
+
+storage:
+  database_file: "linkedin_automation.db"
+  session_file: "linkedin_session.json"
