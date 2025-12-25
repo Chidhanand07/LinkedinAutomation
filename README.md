@@ -13,48 +13,48 @@ A comprehensive, configuration-driven LinkedIn automation system with advanced f
 ## 📋 Features
 
 ### Search & Targeting
-✅ Search by job title, company, location, keywords  
-✅ Custom search URLs  
-✅ Pagination (process multiple pages)  
-✅ Duplicate detection  
-✅ Skip already connected profiles  
-✅ Profile data extraction (name, headline, company)  
-✅ Advanced filtering (connections, profile picture, etc.)  
+Search by job title, company, location, keywords  
+ Custom search URLs  
+ Pagination (process multiple pages)  
+ Duplicate detection  
+ Skip already connected profiles  
+ Profile data extraction (name, headline, company)  
+ Advanced filtering (connections, profile picture, etc.)  
 
 ### Connection Requests
-✅ Navigate to profiles programmatically  
-✅ Click Connect with precision  
-✅ Personalized notes with templates  
-✅ Character limit enforcement  
-✅ Daily/hourly/session limits  
-✅ Profile interaction (view, scroll, hover)  
-✅ Request tracking in database  
+ Navigate to profiles programmatically  
+ Click Connect with precision  
+ Personalized notes with templates  
+ Character limit enforcement  
+ Daily/hourly/session limits  
+ Profile interaction (view, scroll, hover)  
+ Request tracking in database  
 
 ### Messaging System
-✅ Detect new connections  
-✅ Auto follow-up messages  
-✅ Template system with variables  
-✅ Message tracking  
-✅ Configurable wait period  
-✅ Daily/hourly limits  
-✅ Skip already messaged  
+ Detect new connections  
+ Auto follow-up messages  
+ Template system with variables  
+ Message tracking  
+ Configurable wait period  
+ Daily/hourly limits  
+ Skip already messaged  
 
 ### CAPTCHA & Session Management
-✅ Session persistence (skip login)  
-✅ Manual CAPTCHA solving  
-✅ Automatic challenge detection  
-✅ Persistent browser profile  
-✅ Proxy support  
+ Session persistence (skip login)  
+ Manual CAPTCHA solving  
+ Automatic challenge detection  
+ Persistent browser profile  
+ Proxy support  
 
 ### Anti-Detection
-✅ Bézier mouse movement  
-✅ Realistic typing with typos  
-✅ Natural scrolling  
-✅ Mouse hovering  
-✅ Fingerprint masking  
-✅ Business hours awareness  
-✅ Variable timing  
-✅ Rate limiting  
+ Bézier mouse movement  
+ Realistic typing with typos  
+ Natural scrolling  
+ Mouse hovering  
+ Fingerprint masking  
+ Business hours awareness  
+ Variable timing  
+ Rate limiting  
 
 ## 🚀 Quick Start
 
@@ -380,10 +380,10 @@ sqlite3 linkedin_automation.db "SELECT COUNT(*) FROM profiles WHERE date(created
 
 ### Success Indicators
 
-- ✅ Session restores successfully
-- ✅ No CAPTCHAs after first run
-- ✅ Steady connection acceptance rate
-- ✅ No "unusual activity" warnings
+-  Session restores successfully
+-  No CAPTCHAs after first run
+-  Steady connection acceptance rate
+-  No "unusual activity" warnings
 
 ## 📚 Additional Documentation
 
@@ -391,15 +391,7 @@ sqlite3 linkedin_automation.db "SELECT COUNT(*) FROM profiles WHERE date(created
 - [STEALTH_TECHNIQUES.md](STEALTH_TECHNIQUES.md) - Anti-detection details
 - [IMPLEMENTATION_GUIDE.md](IMPLEMENTATION_GUIDE.md) - Technical implementation
 
-## ⚠️ Disclaimer
 
-This tool is for educational purposes. Use responsibly and in accordance with LinkedIn's Terms of Service. The authors are not responsible for any account restrictions or bans resulting from misuse.
-
-## 🤝 Support
-
-For issues or questions, check the troubleshooting section or review the configuration examples.
-
----
 
 **Built with**: Go, Rod (Chrome DevTools Protocol), SQLite  
 **Anti-Detection**: 8+ stealth techniques  
